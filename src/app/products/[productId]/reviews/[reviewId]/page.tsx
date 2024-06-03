@@ -1,5 +1,9 @@
 import { notFound } from 'next/navigation';
 
+function getRandomInt (count: number) {
+  return Math.floor(Math.random() * count);
+}
+
 export default function ReviewDetail ({
   params
 }: {
@@ -8,6 +12,10 @@ export default function ReviewDetail ({
     reviewId: string;
   }
 }) {
+  const number = getRandomInt(2);
+  if (number === 1) {
+    throw new Error('Error message review')
+  }
   if (parseInt(params.reviewId) > 1000) {
     notFound(); 
   }

@@ -5,7 +5,7 @@ export default function HomePage() {
     <>
       <h1>Welcome to Home Page</h1>
 
-      <Link href="/products">Blog</Link>
+      <Link href="/blog">Blog</Link>
     </>
   );
 }
