@@ -6,6 +6,8 @@ export default function HomePage() {
       <h1>Welcome to Home Page</h1>
 
       <Link href="/blog">Blog</Link>
+      
+      <Link href="/photo-feed">Photo Feed</Link>
     </>
   );
 }
