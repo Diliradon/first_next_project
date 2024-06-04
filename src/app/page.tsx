@@ -5,7 +5,8 @@ export default function HomePage() {
     <>
       <h1>Welcome to Home Page</h1>
 
-      <Link href="/blog">Blog</Link>
+      <Link href="/say-hello">Say hello</Link>
+      <Link href="/dashboard">Dashboard</Link>
     </>
   );
 }
